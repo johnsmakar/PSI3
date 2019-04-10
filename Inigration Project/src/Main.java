@@ -26,7 +26,7 @@ public class Main {
 	 
 	  
 	  
-			  //Rusher Stats
+		 //Rusher Stats
 	  //Integer is a primitive data-type
 	  int maxRusherHealth = 50;
 	  int maxRusherDamage = 50;
