@@ -12,13 +12,13 @@ public class Main {
   public static void main(String[] args) {
 	  
 	  //Rusher Stats
-	  int maxRusherHealth = 50;
+	  int maxRusherHealth = 100;
 	  int maxRusherDamage = 50;
 	  //Leader Stats
 	  int maxLeaderHealth = 100;
 	  int maxLeaderDamage = 20;
 	  //Assault Stats
-	  int maxAssaulttHealth = 75;
+	  int maxAssaulttHealth = 100;
 	  int maxAssaultDamage = 25;
 	  
 	 //System Objects
@@ -76,7 +76,7 @@ public class Main {
 		  }
 	   
 	//Greeting to user
-    System.out.println("Greatings " + Character.getName());
+    System.out.println("\n\tGreatings " + Character.getName() + "!");
     while(Character.getStartGame()) {
     	System.out.println("---------------------------------------------------");
     	//Resetting Enemy Health
@@ -89,7 +89,6 @@ public class Main {
     	int enemyHealth = 100;
     	System.out.println("\t*An " + enemies[indexOfRandomEnemy].getClass() + " enemy has appeared!*\n");
     	while(enemies[indexOfRandomEnemy].getHealth() >= 0){
-    		
     		System.out.println("\tYour HP: " + health);
     		System.out.println("\tSheild: " + shield);
     		System.out.println("\t----------------");
@@ -147,21 +146,8 @@ public class Main {
     			System.out.println("Nothing is happening");
     			break;
     		
-    		}
-    		
-    	}
-    }
-    
-   
-    
-
-    // The integer is a primitive data-type that is used to hold a numeric values
-    double age = -18;
-    //casting int age to double
-    //Using Math absolute to get positive age value
-    int myAge = (int) Math.abs(age);
-
-  
+        }	
+      }
+    } 
   }
-
 }
