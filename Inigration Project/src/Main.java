@@ -37,7 +37,7 @@ public class Main {
 	   int shield = 75; //Starting shield
 	   int healthRegenAmount = 10;
 	   int shieldDropChange = 40; //Percentage
-	   int damage = 100; 
+	   int damage = 75; 
 	   int ammo = 18; //Starting ammo amount
 	   
 	   /////////////////////////////  Beginning of Game  ////////////////
@@ -102,8 +102,8 @@ public class Main {
     		
     		switch(input) {
     		case "1":
-    			System.out.println("You are taking cover...\n");
-    			System.out.println("---------------------------------------\n");
+				System.out.println("\t---------------------------------");
+				System.out.println("\t*You are taking Cover*\n");
     			break;
     		case "2":
     			//Fighting Sequence

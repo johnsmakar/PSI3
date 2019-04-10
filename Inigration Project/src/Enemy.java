@@ -6,6 +6,7 @@ public class Enemy {
 	
 	//Constructor
 	//https://drive.google.com/file/d/0BwAJAMyRUcYlQW5PN3dCcDVBQ2c/view
+	//Overloading a Method
 	public Enemy(int h, int d){
 		enemyHealth = h;
 		enemyDamage = d;
