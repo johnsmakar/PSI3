@@ -6,6 +6,11 @@ public class Assault extends Enemy {
 	 *  Fields and methods of its parent class (also known as
 	 *   super, or base class). This method is used for efficiency */
 	
+	@Override
+	public void show(){
+	      System.out.println("A Assualt has appeared"); //This is Polymorphism   
+	   }
+	
 	public Assault(int h, int d) {
 		super(h, d);
 		

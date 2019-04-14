@@ -6,6 +6,11 @@ public class Leader extends Enemy {
 	 *  Fields and methods of its parent class (also known as
 	 *   super, or base class). This method is used for efficiency */
 	
+	@Override
+	public void show(){
+	      System.out.println("A Leader has appeared"); //This is Polymorphism   
+	   }
+	
 	public Leader(int h, int d) {
 		super(h, d);
 		

@@ -12,6 +12,10 @@ public class Enemy {
 		enemyDamage = d;
 	}
 	
+	public void show(){
+	      System.out.println("A Enemy has apperaed");   
+	   }
+	
 // Enemy Health	
 	//Set Name
 	public void setHealth(int myHealth) {

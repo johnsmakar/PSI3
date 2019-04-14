@@ -1,4 +1,4 @@
-
+//John Makar
 public class Character {
 
 	//Fields
@@ -7,6 +7,7 @@ public class Character {
 	private static String gender;
 	private static String DateOfBirth;
 	private static boolean StartGame;
+	private static boolean Launch;
 	
 	//Methods
 	
@@ -49,6 +50,14 @@ public class Character {
 	}
 	public static void setStartGame(boolean startGame) {
 		StartGame = startGame;
+	}
+	
+	//Launch
+	public static boolean getLaunch() {
+		return Launch;
+	}
+	public static void setLaunch(boolean L) {
+		Launch = L;
 	}
 	
 	
