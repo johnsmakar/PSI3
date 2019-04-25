@@ -1,64 +1,76 @@
-//John Makar
+/**
+ * @author John Makar
+ *
+ */
+/*
+ * The Character class stores all the characters information if they wish to
+ * create a new character, although not all the field are not currently being
+ * use this allows for the program to be future proof for further updates
+ */
 public class Character {
 
-	//Fields
+	// Fields
 	private static String name;
 	private static String age;
 	private static String gender;
-	private static String DateOfBirth;
-	private static boolean StartGame;
-	private static boolean Launch;
-	
-	//Methods
-	
-	//Name
+	private static String dateOfBirth;
+	private static boolean startGame;
+	private static boolean launch;
+
+	// Methods
+
+	// Name
 	public static String getName() {
 		return name;
 	}
+
 	public static void setName(String n) {
 		name = n;
 	}
-	
-	//Age
+
+	// Age
 	public String getAge() {
 		return age;
-		
+
 	}
-	public void setAge(String a) {
+
+	public static void setAge(String a) {
 		age = a;
 	}
-	
-	//Gender
+
+	// Gender
 	public String getGender() {
 		return gender;
 	}
+
 	public static void setGender(String g) {
 		gender = g;
 	}
-	
-	//DOB
+
+	// DOB
 	public String getDOB() {
-		return DateOfBirth;
+		return dateOfBirth;
 	}
+
 	public static void setDOB(String DOB) {
-		DateOfBirth = DOB;
+		dateOfBirth = DOB;
 	}
-	
-	//Start Game
+
+	// Start Game
 	public static boolean getStartGame() {
-		return StartGame;
+		return startGame;
 	}
-	public static void setStartGame(boolean startGame) {
-		StartGame = startGame;
+
+	public static void setStartGame(boolean sg) {
+		startGame = sg;
 	}
-	
-	//Launch
+	// Launch
 	public static boolean getLaunch() {
-		return Launch;
+		return launch;
 	}
+
 	public static void setLaunch(boolean L) {
-		Launch = L;
+		launch = L;
 	}
-	
-	
+
 }
