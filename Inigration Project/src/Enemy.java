@@ -1,48 +1,47 @@
-/**
+/*
  * @author John Makar
  *
  */
 /*
- * This is the base class for the enemy and all other enemies are derived from
- * this class.
+ * This is the base class for the enemy and all other enemies are derived from this class.
  */
 public class Enemy {
 
-	private int enemyHealth;
-	private int enemyDamage;
+  private int enemyHealth;
+  private int enemyDamage;
 
-	// Constructor
-	// https://drive.google.com/file/d/0BwAJAMyRUcYlQW5PN3dCcDVBQ2c/view
-	// Overloading a Method
-	public Enemy(int h, int d) {
-		enemyHealth = h;
-		enemyDamage = d;
-	}
+  // Constructor
+  // https://drive.google.com/file/d/0BwAJAMyRUcYlQW5PN3dCcDVBQ2c/view
+  // Overloading a Method
+  public Enemy(int h, int d) {
+    enemyHealth = h;
+    enemyDamage = d;
+  }
 
-	public void show() {
-		System.out.println("A Enemy has apperaed");
-	}
+  public void show() {
+    System.out.println("A Enemy has apperaed");
+  }
 
-// Enemy Health	
-	// Set Name
-	public void setHealth(int myHealth) {
-		enemyHealth = myHealth;
-	}
+  // Enemy Health
+  // Set Name
+  public void setHealth(int myHealth) {
+    enemyHealth = myHealth;
+  }
 
-	// Get Name
-	public int getHealth() {
-		return enemyHealth;
-	}
+  // Get Name
+  public int getHealth() {
+    return enemyHealth;
+  }
 
-// Enemy Damage	
-	// Set Name
-	public void setDamage(int myDamage) {
-		enemyDamage = myDamage;
-	}
+  // Enemy Damage
+  // Set Name
+  public void setDamage(int myDamage) {
+    enemyDamage = myDamage;
+  }
 
-	// Get Name
-	public int getDamage() {
-		return enemyDamage;
-	}
+  // Get Name
+  public int getDamage() {
+    return enemyDamage;
+  }
 
 }
